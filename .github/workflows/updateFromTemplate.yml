@@ -40,12 +40,12 @@ jobs:
       - name: Fetch upstream changes
         run: |
           git remote add upstream https://github.com/Virtuouz/SiteStitcher.git
-          git fetch upstream main
+          git fetch upstream dev
 
       - name: Create temporary branch
         run: |
           git checkout -b temp-update-branch
-          git merge upstream/main --allow-unrelated-histories --no-edit || (echo "Merge conflict detected. Proceeding with conditional conflict resolution."; exit 0)
+          git merge upstream/dev --allow-unrelated-histories --no-edit || (echo "Merge conflict detected. Proceeding with conditional conflict resolution."; exit 0)
 
       - name: Identify conflicts and resolve
         if: always()
