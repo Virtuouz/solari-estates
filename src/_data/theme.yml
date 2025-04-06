@@ -1,17 +1,17 @@
 primaryColor_group:
   name: Primary
-  textColor: '#041e25'
-  backgroundColor: '#f6fdfe'
-  primaryColor: '#25cbe4'
-  secondaryColor: '#ef808f'
-  accentColor: '#eaca57'
+  textColor: '#f5f5f5'
+  backgroundColor: '#1a1a1a'
+  primaryColor: '#d4af35'
+  secondaryColor: '#2e2e2e'
+  accentColor: '#5c2434'
 customColor_groups:
-  - name: Primary Dark
-    textColor: '#daf4fb'
-    backgroundColor: '#010809'
-    primaryColor: '#1bc0da'
-    secondaryColor: '#7f101f'
-    accentColor: '#a88815'
+  - name: Primary alt bg
+    textColor: '#f5f5f5'
+    backgroundColor: '#232323'
+    primaryColor: '#d4af35'
+    secondaryColor: '#2e2e2e'
+    accentColor: '#5c2434'
     id: 5c9075f8-80f9-4482-b041-91cffdfe02be
 heading_font: Alegreya Sans
 content_font: Fira Sans
