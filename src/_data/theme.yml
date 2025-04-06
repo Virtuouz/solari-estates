@@ -13,12 +13,12 @@ customColor_groups:
     secondaryColor: '#2e2e2e'
     accentColor: '#5c2434'
     id: 5c9075f8-80f9-4482-b041-91cffdfe02be
-heading_font: Alegreya Sans
-content_font: Fira Sans
-logo_font: Oswald
-button_rounding: rounded
-image_rounding: rounded
-container_rounding: rounded
+heading_font: Playfair Display
+content_font: Montserrat
+logo_font: Playfair Display
+button_rounding: rounded-none
+image_rounding: rounded-none
+container_rounding: rounded-none
 _inputs:
   button_rounding:
     comment: >-
