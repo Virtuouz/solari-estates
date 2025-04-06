@@ -13,6 +13,13 @@ customColor_groups:
     secondaryColor: '#2e2e2e'
     accentColor: '#5c2434'
     id: 5c9075f8-80f9-4482-b041-91cffdfe02be
+  - name: primary light
+    textColor: '#1a1a1a'
+    backgroundColor: '#eeeeee'
+    primaryColor: '#d4af35'
+    secondaryColor: '#2e2e2e'
+    accentColor: '#5c2434'
+    id: 85aaa93c-0b15-4ce2-9f9a-f92df57d9780
 heading_font: Playfair Display
 content_font: Montserrat
 logo_font: Playfair Display
