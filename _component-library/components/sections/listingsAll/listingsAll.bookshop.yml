@@ -3,10 +3,10 @@ spec:
   structures:
     - content_blocks
     - extra_blocks
-  label: "ListingsAll"
-  description:
-  icon:
-  tags: []
+  label: "Listings"
+  description: "Show off your listings in a clean, organized layout, perfect for showcasing collections, portfolios, or visual highlights."
+  icon: lists
+  tags: [connected, listings]
 
 # Defines the structure of this component, as well as the default values
 blueprint:
@@ -33,6 +33,13 @@ preview:
 
 # Any extra CloudCannon inputs configuration to apply to the blueprint
 _inputs:
+  listingCount:
+    comment: "Number of listings to show. Default is 50."
+    type: number
+    options:
+      min: 0
+      max: 50
+      step: 1
   tags:
     comment: >-
       Filter by specifc tags (set up in the listing tags file) to show only those listings. Leave blank to show all.
