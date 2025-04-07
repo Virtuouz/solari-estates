@@ -70,6 +70,7 @@ content_blocks:
       sectionId:
       showNote: true
       filterCollection:
+      listingCount: 50
       heading:
         _bookshop_name: generic/heading
         content:
