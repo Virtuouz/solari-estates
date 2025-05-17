@@ -31,8 +31,8 @@ hero:
   content:
     sectionId:
     highlightEybrow: false
-    eyebrow: Solari Estates
-    headline: Where Prestige <br>Meets Home
+    eyebrow: Where Prestige Meets Home
+    headline: Solari Estates
     description: >-
       Experience the pinnacle of elegance and sophistication with Solari
       Estates.
@@ -100,6 +100,18 @@ content_blocks:
       card_color_group: primary
       colorFromGroup: background
       listingCardStyle: horizontal
+  - _bookshop_name: sections/upcomingHappening
+    contents:
+      sectionId:
+      showNote: true
+      showCancelled: true
+      tags:
+      showCountdown: true
+      noHappeningsHeading:
+    styles:
+      color_group: primary
+      countDownPosition: center
+      backgroundOpacity: 50
   - _bookshop_name: sections/servicesSection
     content:
       sectionId:
@@ -124,64 +136,7 @@ content_blocks:
       showNote: true
     styles:
       color_group: primary
-      cardStyle: defaultCard
-  - _bookshop_name: sections/happeningCardsPartial
-    contents:
-      sectionId:
-      showNote: true
-      heading:
-        _bookshop_name: generic/heading
-        content:
-          highlightEyebrow: false
-          eyebrow: ''
-          headline: Upcoming events
-          description: ''
-          buttons: []
-          headingHierarchy: h2
-        styles:
-          contentAlignment: left
-          textAlignment: left
-          visualInterest: none
-          visualInterestColor: '#000000'
-          highContrast: false
-          contrastColorGroup:
-          contrastAgainst:
-          textClassOverride:
-      showCancelled: true
-      tags:
-      noHappeningsHeading:
-        _bookshop_name: generic/heading
-        content:
-          highlightEyebrow: false
-          eyebrow: ''
-          headline: More Events to Come
-          description: ''
-          buttons: []
-          headingHierarchy: h2
-        styles:
-          contentAlignment: center
-          textAlignment: center
-          visualInterest: none
-          visualInterestColor: '#000000'
-          highContrast: false
-          contrastColorGroup:
-          contrastAgainst:
-          textClassOverride:
-    styles:
-      color_group: primary
-      cardStyle: default
-  - _bookshop_name: sections/upcomingHappening
-    contents:
-      sectionId:
-      showNote: true
-      showCancelled: true
-      tags:
-      showCountdown: true
-      noHappeningsHeading:
-    styles:
-      color_group: primary
-      countDownPosition: center
-      backgroundOpacity: 50
+      cardStyle: cleanCard
   - _bookshop_name: sections/sideBySideStandard
     content:
       sectionId:
