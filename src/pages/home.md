@@ -9,9 +9,9 @@ removeFromNavigation: false
 eleventyNavigation:
   key: Home
   order: 1
-  title: null
-  parent: null
-  url: null
+  title:
+  parent:
+  url:
 pageLink: /
 permalink: >-
   {% if pageLink == 'blog' or pageLink == 'Blog' %}/{{pageLink | slugify}}{% if
@@ -21,7 +21,7 @@ permalink: >-
   }}/index.html{% else %}/{% assign title = title | slugify %}{{
   page.filePathStem | fileSubstringFilter | append: title | downcase
   }}/index.html{%endif %}
-metaDesc: null
+metaDesc:
 customCode:
   headCode: ''
   bodyCode: ''
@@ -29,7 +29,7 @@ layout: layouts/page.html
 hero:
   _bookshop_name: sections/fullImageTextBottomHero
   content:
-    sectionId: null
+    sectionId:
     highlightEybrow: false
     eyebrow: Solari Estates
     headline: Where Prestige <br>Meets Home
@@ -38,7 +38,7 @@ hero:
       Estates.
     buttons:
       - _bookshop_name: generic/button
-        url: null
+        url:
         openInNewTab: false
         text: Explore homes
         color_group: primary
@@ -56,20 +56,20 @@ hero:
     image:
       _bookshop_name: generic/image
       imagePath: /assets/uploads/mansion.jpg
-      imageAlt: null
-      yAxisPosition: null
-      imageSizes: null
-      class: null
-      imageNumber: null
+      imageAlt:
+      yAxisPosition:
+      imageSizes:
+      class:
+      imageNumber:
   styles:
     color_group: primary
     backgroundOpacity: 50
 content_blocks:
   - _bookshop_name: sections/listingsAll
     content:
-      sectionId: null
+      sectionId:
       showNote: true
-      filterCollection: null
+      filterCollection:
       listingCount: 50
       heading:
         _bookshop_name: generic/heading
@@ -86,15 +86,15 @@ content_blocks:
           visualInterest: none
           visualInterestColor: '#000000'
           highContrast: false
-          contrastColorGroup: null
-          contrastAgainst: null
-          textClassOverride: null
-      tags: null
+          contrastColorGroup:
+          contrastAgainst:
+          textClassOverride:
+      tags:
       showExpired: false
       showAvailable: true
       showDisqualified: false
       showGeneral: true
-      noListingsHeading: null
+      noListingsHeading:
     styles:
       color_group: primary
       card_color_group: primary
@@ -102,7 +102,7 @@ content_blocks:
       listingCardStyle: horizontal
   - _bookshop_name: sections/servicesSection
     content:
-      sectionId: null
+      sectionId:
       heading:
         _bookshop_name: generic/heading
         content:
@@ -118,16 +118,16 @@ content_blocks:
           visualInterest: none
           visualInterestColor: '#000000'
           highContrast: false
-          contrastColorGroup: null
-          contrastAgainst: null
-          textClassOverride: null
+          contrastColorGroup:
+          contrastAgainst:
+          textClassOverride:
       showNote: true
     styles:
       color_group: primary
       cardStyle: defaultCard
   - _bookshop_name: sections/happeningCardsPartial
     contents:
-      sectionId: null
+      sectionId:
       showNote: true
       heading:
         _bookshop_name: generic/heading
@@ -144,11 +144,11 @@ content_blocks:
           visualInterest: none
           visualInterestColor: '#000000'
           highContrast: false
-          contrastColorGroup: null
-          contrastAgainst: null
-          textClassOverride: null
+          contrastColorGroup:
+          contrastAgainst:
+          textClassOverride:
       showCancelled: true
-      tags: null
+      tags:
       noHappeningsHeading:
         _bookshop_name: generic/heading
         content:
@@ -164,15 +164,27 @@ content_blocks:
           visualInterest: none
           visualInterestColor: '#000000'
           highContrast: false
-          contrastColorGroup: null
-          contrastAgainst: null
-          textClassOverride: null
+          contrastColorGroup:
+          contrastAgainst:
+          textClassOverride:
     styles:
       color_group: primary
       cardStyle: default
+  - _bookshop_name: sections/upcomingHappening
+    contents:
+      sectionId:
+      showNote: true
+      showCancelled: true
+      tags:
+      showCountdown: true
+      noHappeningsHeading:
+    styles:
+      color_group: primary
+      countDownPosition: center
+      backgroundOpacity: 50
   - _bookshop_name: sections/sideBySideStandard
     content:
-      sectionId: null
+      sectionId:
       heading:
         _bookshop_name: generic/heading
         content:
@@ -188,9 +200,9 @@ content_blocks:
           visualInterest: none
           visualInterestColor: '#000000'
           highContrast: false
-          contrastColorGroup: null
-          contrastAgainst: null
-          textClassOverride: null
+          contrastColorGroup:
+          contrastAgainst:
+          textClassOverride:
       entries:
         - _bookshop_name: generic/leftRight
           content:
@@ -237,17 +249,17 @@ content_blocks:
                 visualInterest: none
                 visualInterestColor: '#000000'
                 highContrast: false
-                contrastColorGroup: null
-                contrastAgainst: null
-                textClassOverride: null
+                contrastColorGroup:
+                contrastAgainst:
+                textClassOverride:
             image:
               _bookshop_name: generic/image
               imagePath: /assets/uploads/home/about-us.jpg
-              imageAlt: null
-              yAxisPosition: null
-              imageSizes: null
-              class: null
-              imageNumber: null
+              imageAlt:
+              yAxisPosition:
+              imageSizes:
+              class:
+              imageNumber:
             entryNumber: 0
           styles:
             color_group: primary
@@ -258,7 +270,7 @@ content_blocks:
       fullWidth: true
   - _bookshop_name: sections/textBreakReview
     content:
-      sectionId: null
+      sectionId:
       heading:
         _bookshop_name: generic/heading
         content:
@@ -274,9 +286,9 @@ content_blocks:
           visualInterest: none
           visualInterestColor: '#000000'
           highContrast: false
-          contrastColorGroup: null
-          contrastAgainst: null
-          textClassOverride: null
+          contrastColorGroup:
+          contrastAgainst:
+          textClassOverride:
       usePersonImage: true
       reviews:
         - review: cf5af1f3-4b28-4280-a664-0ef482ae9215
@@ -285,7 +297,7 @@ content_blocks:
       color_group: primary
   - _bookshop_name: sections/simpleCta
     content:
-      sectionId: null
+      sectionId:
       CallToAction:
         _bookshop_name: generic/heading
         content:
@@ -317,9 +329,9 @@ content_blocks:
           visualInterest: none
           visualInterestColor: '#000000'
           highContrast: false
-          contrastColorGroup: null
-          contrastAgainst: null
-          textClassOverride: null
+          contrastColorGroup:
+          contrastAgainst:
+          textClassOverride:
     styles:
       color_group: primary
 _inputs:
@@ -332,4 +344,3 @@ _inputs:
     type: code
     comment: Add code before the </body> tag
 ---
-
