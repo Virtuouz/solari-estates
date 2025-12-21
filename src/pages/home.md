@@ -45,6 +45,7 @@ hero:
         colorFromGroup: primary
         ghostButton: false
         formSubmit: false
+        _componentId: button-5a055703-3064-4c18-af21-4c4ef537e497
       - _bookshop_name: generic/button
         url: '#'
         openInNewTab: false
@@ -53,6 +54,7 @@ hero:
         colorFromGroup: text
         ghostButton: true
         formSubmit: false
+        _componentId: button-5a055703-3064-4c18-af21-4c4ef537e497
     image:
       _bookshop_name: generic/image
       imagePath: /assets/uploads/mansion.jpg
@@ -62,9 +64,11 @@ hero:
       class: null
       imageNumber: null
       imageWidths: null
+      _componentId: image-c1cbbc3b-f7dc-4577-8f8f-c37dd7943db2
   styles:
     color_group: primary
     backgroundOpacity: 50
+  _componentId: fullImageTextBottomHero-b0e632cd-24ba-4fdf-b15b-e20780e23c4d
 content_blocks:
   - _bookshop_name: sections/listingsAll
     content:
@@ -90,6 +94,7 @@ content_blocks:
           contrastColorGroup: null
           contrastAgainst: null
           textClassOverride: null
+        _componentId: heading-89db575d-4583-4ff0-89a6-d6931371a72a
       tags: null
       showExpired: false
       showAvailable: true
@@ -101,6 +106,7 @@ content_blocks:
       card_color_group: primary
       colorFromGroup: background
       listingCardStyle: horizontal
+    _componentId: listingsAll-f427e5b0-8adb-4d27-951b-7263d0ecfc27
   - _bookshop_name: sections/upcomingHappening
     contents:
       sectionId: null
@@ -113,6 +119,7 @@ content_blocks:
       color_group: primary
       countDownPosition: center
       backgroundOpacity: 50
+    _componentId: upcomingHappening-fecfa290-d5e0-49c4-ac0d-3fc71564856b
   - _bookshop_name: sections/servicesSection
     content:
       sectionId: null
@@ -134,10 +141,12 @@ content_blocks:
           contrastColorGroup: null
           contrastAgainst: null
           textClassOverride: null
+        _componentId: heading-89db575d-4583-4ff0-89a6-d6931371a72a
       showNote: true
     styles:
       color_group: primary
       cardStyle: cleanCard
+    _componentId: servicesSection-d06c51f7-7385-4443-8423-400d3f52e2e9
   - _bookshop_name: sections/sideBySideStandard
     content:
       sectionId: null
@@ -159,6 +168,7 @@ content_blocks:
           contrastColorGroup: null
           contrastAgainst: null
           textClassOverride: null
+        _componentId: heading-89db575d-4583-4ff0-89a6-d6931371a72a
       entries:
         - _bookshop_name: generic/leftRight
           content:
@@ -208,6 +218,7 @@ content_blocks:
                 contrastColorGroup: null
                 contrastAgainst: null
                 textClassOverride: null
+              _componentId: heading-89db575d-4583-4ff0-89a6-d6931371a72a
             image:
               _bookshop_name: generic/image
               imagePath: /assets/uploads/home/about-us.jpg
@@ -217,14 +228,17 @@ content_blocks:
               class: null
               imageNumber: null
               imageWidths: null
+              _componentId: image-c1cbbc3b-f7dc-4577-8f8f-c37dd7943db2
             entryNumber: 0
           styles:
             color_group: primary
             colorFromGroup: background
+          _componentId: leftRight-eeb30bac-09e7-41ba-a9ab-424fd98ea4b8
     styles:
       color_group: primary
       startImageRight: false
       fullWidth: true
+    _componentId: sideBySideStandard-f655a3f4-fd11-402d-9794-215be5328ad6
   - _bookshop_name: sections/textBreakReview
     content:
       sectionId: null
@@ -246,12 +260,14 @@ content_blocks:
           contrastColorGroup: null
           contrastAgainst: null
           textClassOverride: null
+        _componentId: heading-89db575d-4583-4ff0-89a6-d6931371a72a
       usePersonImage: true
       reviews:
         - review: cf5af1f3-4b28-4280-a664-0ef482ae9215
         - review: e8b58d19-77b3-4e15-9d00-88808b9dc2b4
     styles:
       color_group: primary
+    _componentId: textBreakReview-9ec5a449-69e1-49ed-aa59-0349a4cde163
   - _bookshop_name: sections/simpleCta
     content:
       sectionId: null
@@ -271,6 +287,7 @@ content_blocks:
               colorFromGroup: primary
               ghostButton: false
               formSubmit: false
+              _componentId: button-5a055703-3064-4c18-af21-4c4ef537e497
             - _bookshop_name: generic/button
               url: '#'
               openInNewTab: false
@@ -279,6 +296,7 @@ content_blocks:
               colorFromGroup: primary
               ghostButton: true
               formSubmit: false
+              _componentId: button-5a055703-3064-4c18-af21-4c4ef537e497
           headingHierarchy: h2
         styles:
           contentAlignment: center
@@ -289,8 +307,10 @@ content_blocks:
           contrastColorGroup: null
           contrastAgainst: null
           textClassOverride: null
+        _componentId: heading-89db575d-4583-4ff0-89a6-d6931371a72a
     styles:
       color_group: primary
+    _componentId: simpleCta-55aa4315-260d-4b9f-a7e6-f4c494799681
 _inputs:
   eleventyNavigation:
     hidden: removeFromNavigation

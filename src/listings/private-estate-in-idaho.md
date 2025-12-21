@@ -6,16 +6,16 @@ eleventyExcludeFromCollections: false
 disableNav: false
 disableSitemap: false
 title: Private Mansion in Idaho
-metaDesc:
+metaDesc: null
 customCode:
   headCode: ''
   bodyCode: ''
-pageLink:
+pageLink: null
 tags:
   - For Sale
   - Featured
 canExpire: false
-expireDate:
+expireDate: null
 permalink: >-
   /listings/{% assign id = id | uuidHashFilter%}{% capture varPagePath %}{% if
   pageLink%}{% assign pageLink = pageLink | slugify%}{{  page.filePathStem
@@ -24,11 +24,11 @@ permalink: >-
   endcapture %}/{{varPagePath | strip}}/index.html
 layout: layouts/listing.html
 listingImage: /assets/uploads/303940.jpg
-imageAltText:
+imageAltText: null
 keyInformation: This gated mansion is tucked away in northern Idaho.
 hero:
   _bookshop_name: sections/simpleHero
-  sectionId:
+  sectionId: null
   heading:
     _bookshop_name: generic/heading
     content:
@@ -44,26 +44,34 @@ hero:
       visualInterest: none
       visualInterestColor: '#000000'
       highContrast: false
-      contrastColorGroup:
-      contrastAgainst:
-      textClassOverride:
+      contrastColorGroup: null
+      contrastAgainst: null
+      textClassOverride: null
+    _componentId: heading-89db575d-4583-4ff0-89a6-d6931371a72a
+  _componentId: simpleHero-8c1dcda7-535f-4605-9e3c-86685737f008
 content_blocks:
   - _bookshop_name: generic/tags
     styles:
       tagColors: greyscale
+    _componentId: tags-e18b3ebc-ef8f-4406-b127-c6278297bc6b
   - _bookshop_name: sections/imageCarousel
     content:
       showNote: true
       images:
         - _bookshop_name: generic/image
           imagePath: /assets/uploads/303940.jpg
-          imageAlt:
-          yAxisPosition:
-          imageSizes:
-          class:
-          imageNumber:
+          imageAlt: null
+          yAxisPosition: null
+          imageSizes: null
+          class: null
+          imageNumber: null
+          _componentId: image-c1cbbc3b-f7dc-4577-8f8f-c37dd7943db2
+          imageWidths: null
+      sectionId: null
+      heading: 'bookshop:structure:headingBlocks'
     styles:
       color_group: primary
+    _componentId: imageCarousel-3c829311-df32-41c0-a254-9e0f1afccf29
   - _bookshop_name: sections/informationCards
     content:
       heading:
@@ -81,9 +89,10 @@ content_blocks:
           visualInterest: none
           visualInterestColor: '#000000'
           highContrast: false
-          contrastColorGroup:
-          contrastAgainst:
-          textClassOverride:
+          contrastColorGroup: null
+          contrastAgainst: null
+          textClassOverride: null
+        _componentId: heading-89db575d-4583-4ff0-89a6-d6931371a72a
       cards:
         - heading:
             _bookshop_name: generic/heading
@@ -103,9 +112,10 @@ content_blocks:
               visualInterest: none
               visualInterestColor: '#000000'
               highContrast: false
-              contrastColorGroup:
-              contrastAgainst:
-              textClassOverride:
+              contrastColorGroup: null
+              contrastAgainst: null
+              textClassOverride: null
+            _componentId: heading-89db575d-4583-4ff0-89a6-d6931371a72a
         - heading:
             _bookshop_name: generic/heading
             content:
@@ -124,9 +134,10 @@ content_blocks:
               visualInterest: none
               visualInterestColor: '#000000'
               highContrast: false
-              contrastColorGroup:
-              contrastAgainst:
-              textClassOverride:
+              contrastColorGroup: null
+              contrastAgainst: null
+              textClassOverride: null
+            _componentId: heading-89db575d-4583-4ff0-89a6-d6931371a72a
         - heading:
             _bookshop_name: generic/heading
             content:
@@ -145,13 +156,16 @@ content_blocks:
               visualInterest: none
               visualInterestColor: '#000000'
               highContrast: false
-              contrastColorGroup:
-              contrastAgainst:
-              textClassOverride:
+              contrastColorGroup: null
+              contrastAgainst: null
+              textClassOverride: null
+            _componentId: heading-89db575d-4583-4ff0-89a6-d6931371a72a
+      sectionId: null
     styles:
       color_group: primary
       card_color_group: 5c9075f8-80f9-4482-b041-91cffdfe02be
       cardBackground: true
+    _componentId: informationCards-8b479207-cb46-43d4-935c-54de4e1f3dd0
   - _bookshop_name: sections/simpleTextBlock
     content:
       heading:
@@ -169,9 +183,10 @@ content_blocks:
           visualInterest: none
           visualInterestColor: '#000000'
           highContrast: false
-          contrastColorGroup:
-          contrastAgainst:
-          textClassOverride:
+          contrastColorGroup: null
+          contrastAgainst: null
+          textClassOverride: null
+        _componentId: heading-89db575d-4583-4ff0-89a6-d6931371a72a
       text:
         _bookshop_name: generic/textBlock
         text: >-
@@ -218,8 +233,11 @@ content_blocks:
           Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut
           hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent
           per conubia nostra inceptos himenaeos.
+        _componentId: textBlock-0b312f24-1509-4d49-991b-889f4d113886
+      sectionId: null
     styles:
       color_group: primary
+    _componentId: simpleTextBlock-1a5ab00c-5c73-435e-abf1-efdfaf30e675
   - _bookshop_name: sections/actionBar
     content:
       buttons:
@@ -231,13 +249,14 @@ content_blocks:
           colorFromGroup: primary
           ghostButton: false
           formSubmit: false
+          _componentId: button-5a055703-3064-4c18-af21-4c4ef537e497
         - _bookshop_name: generic/modalButton
           id: 29eb9d15-77a6-4df8-9928-64adb030c7a0
           resource:
             _bookshop_name: simple/formBuilder
-            formName:
-            sectionId:
-            successPage:
+            formName: null
+            sectionId: null
+            successPage: null
             form_elements:
               - _bookshop_name: generic/form/textInput
                 label: First Name
@@ -245,48 +264,58 @@ content_blocks:
                 id: 4ead7cb6-9795-479f-9ca1-aea03232eabc
                 required: true
                 helperText: ''
+                _componentId: textInput-c93e5b13-0af4-4308-af72-64efb41b1579
               - _bookshop_name: generic/form/textInput
                 label: Last Name
                 placeholder: ''
                 id: 7758ab4a-e47a-45a5-8b3f-5eaa083c6cfe
                 required: true
                 helperText: ''
+                _componentId: textInput-c93e5b13-0af4-4308-af72-64efb41b1579
               - _bookshop_name: generic/form/emailInput
                 label: Email
                 id: 672797d6-52d6-4da1-97e0-d2ba8b4308e8
                 required: true
-                placeholder:
+                placeholder: null
                 helperText: ''
+                _componentId: emailInput-c344a86b-60c9-4329-bd1c-f2a5106f53d8
               - _bookshop_name: generic/form/dateInput
                 label: Tour Day
                 id: 4569508d-fc02-45bb-8ce2-0668479f6eab
                 required: true
                 minToday: true
-                min:
+                min: null
                 maxToday: false
-                max:
+                max: null
                 helperText: ''
+                _componentId: dateInput-ac0d6300-996a-4b20-b5a8-9f5aa2a5da0b
               - _bookshop_name: generic/form/timeInput
                 label: Tour Time
                 placeholder: ''
                 id: 923da1fe-0b59-445e-84bc-4151e06dca0b
-                helperText: Pick a time between 10:00 and 17:00
-                min: 10:00 am
-                max: 5:00 pm
+                helperText: 'Pick a time between 10:00 and 17:00'
+                min: '10:00 am'
+                max: '5:00 pm'
+                _componentId: timeInput-3d9b6e7a-2152-4724-834a-806bb4ef3308
             submitButton:
               text: Submit
               color_group: primary
               colorFromGroup: primary
               ghostButton: false
               formSubmit: true
+            _componentId: formBuilder-1be2b859-3776-47b6-a974-0189cb33295e
+            inboxKey: null
+            subject: null
           form_color_group: primary
           text: Schedule a tour
           color_group: primary
           colorFromGroup: primary
           ghostButton: true
+          _componentId: modalButton-ce57d451-a7dc-4222-9ef8-c7536c294970
     styles:
       color_group: primary
       colorFromGroup: background
+    _componentId: actionBar-4c432c0e-c257-41cf-b1e6-ba42c804052e
 _inputs:
   headCode:
     type: code
@@ -331,3 +360,4 @@ _inputs:
       removeformat: true
       copyformatting: true
 ---
+
