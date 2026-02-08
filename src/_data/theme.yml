@@ -28,6 +28,16 @@ button_rounding: rounded-none
 image_rounding: rounded-none
 container_rounding: rounded-none
 _inputs:
+  textColor:
+    type: color
+  backgroundColor:
+    type: color
+  primaryColor:
+    type: color
+  secondaryColor:
+    type: color
+  accentColor:
+    type: color
   button_rounding:
     comment: >-
       This will change the rounding of all the buttons on the site. Each option
