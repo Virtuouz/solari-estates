@@ -265,6 +265,7 @@ content_blocks:
                 required: true
                 helperText: ''
                 _componentId: textInput-c93e5b13-0af4-4308-af72-64efb41b1579
+                hidden: false
               - _bookshop_name: generic/form/textInput
                 label: Last Name
                 placeholder: ''
@@ -272,6 +273,7 @@ content_blocks:
                 required: true
                 helperText: ''
                 _componentId: textInput-c93e5b13-0af4-4308-af72-64efb41b1579
+                hidden: false
               - _bookshop_name: generic/form/emailInput
                 label: Email
                 id: 201b57e3-6573-45ce-b98e-b1904bf12bba
@@ -279,6 +281,7 @@ content_blocks:
                 placeholder: null
                 helperText: ''
                 _componentId: emailInput-c344a86b-60c9-4329-bd1c-f2a5106f53d8
+                hidden: false
               - _bookshop_name: generic/form/dateInput
                 label: Tour Day
                 id: cfa7f23f-399e-42ba-8afe-2d504248332b
@@ -289,6 +292,7 @@ content_blocks:
                 max: null
                 helperText: ''
                 _componentId: dateInput-ac0d6300-996a-4b20-b5a8-9f5aa2a5da0b
+                hidden: false
               - _bookshop_name: generic/form/timeInput
                 label: Tour Time
                 placeholder: ''
@@ -297,6 +301,7 @@ content_blocks:
                 min: '10:00 am'
                 max: '5:00 pm'
                 _componentId: timeInput-3d9b6e7a-2152-4724-834a-806bb4ef3308
+                hidden: false
             submitButton:
               text: Submit
               color_group: primary
