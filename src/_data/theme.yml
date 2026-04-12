@@ -22,12 +22,78 @@ customColor_groups:
     accentColor: '#5c2434'
     id: 85aaa93c-0b15-4ce2-9f9a-f92df57d9780
 heading_font: Playfair Display
+heading_font_file: null
 content_font: Montserrat
+content_font_file: null
 logo_font: Playfair Display
+logo_font_file: null
 button_rounding: rounded-none
 image_rounding: rounded-none
 container_rounding: rounded-none
 _inputs:
+  heading_font:
+    comment: >-
+      Write the name of any font from
+      [https://fonts.google.com/](https://fonts.google.com/) in data/fonts to
+      access it here. Note: fonts needs to have at least style 400 and 700
+      available
+    type: select
+    options:
+      allow_create: true
+      values: data.fonts
+  content_font:
+    comment: >-
+      Write the name of any font from
+      [https://fonts.google.com/](https://fonts.google.com/) in data/fonts to
+      access it here. Note: fonts needs to have at least style 400 and 700
+      available
+    type: select
+    options:
+      allow_create: true
+      values: data.fonts
+  logo_font:
+    comment: >-
+      Write the name of any font from
+      [https://fonts.google.com/](https://fonts.google.com/) in data/fonts to
+      access it here. Note: fonts needs to have at least style 400 and 700
+      available
+    type: select
+    options:
+      allow_create: true
+      values: data.fonts
+  heading_font_file:
+    type: file
+    options:
+      empty_type: string
+      accepts_mime_types:
+        - font/ttf
+        - font/otf
+        - font/woff
+        - font/woff2
+        - application/font-woff
+        - application/font-woff2
+  content_font_file:
+    type: file
+    options:
+      empty_type: string
+      accepts_mime_types:
+        - font/ttf
+        - font/otf
+        - font/woff
+        - font/woff2
+        - application/font-woff
+        - application/font-woff2
+  logo_font_file:
+    type: file
+    options:
+      empty_type: string
+      accepts_mime_types:
+        - font/ttf
+        - font/otf
+        - font/woff
+        - font/woff2
+        - application/font-woff
+        - application/font-woff2
   textColor:
     type: color
   backgroundColor:
