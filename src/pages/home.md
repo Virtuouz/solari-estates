@@ -115,6 +115,10 @@ content_blocks:
       tags: null
       showCountdown: true
       noHappeningsHeading: null
+      whenLabel: 'When:'
+      showTime: true
+      dateFormat: mm/dd/yyyy
+      learnMoreText: Learn more
     styles:
       color_group: primary
       countDownPosition: center
